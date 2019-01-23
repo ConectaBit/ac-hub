@@ -109,7 +109,16 @@ img{
     height: 100%;
     position: fixed;
     border-right: 1px solid rgba(141, 139, 139, 0.616);
-    background-color: #efefef;
+    
+}
+
+.user-profile{
+    margin: 5em auto;
+    border-bottom: 1px solid #09484d;
+    
+    width: 90%;
+    background-color: white;
+    padding: 1em 1em 3em;
 }
 
 .feed{
@@ -129,6 +138,31 @@ img{
 
 .avatar img{
     max-width: 8em;
+    float: left;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.avatar-small{
+    display: inline;
+    
+    border-radius: .5em;
+    margin: 0 auto;
+}
+
+.avatar-small img{
+    max-width: 6em;
+}
+
+.avatar-small strong{
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.repositories{
+    width: 90%;
+    margin: 1em;
 }
 
 .post{
