@@ -5,12 +5,15 @@ body{
     color: #666;
     font-weight: normal;
     line-height: 1.6;
+    background-color: white;
 }
 
 .header-top{
+    margin-top: 0;
     width: 100%;
     height: 4em;
     position: relative;
+    z-index: 1;
 }
 
 .header-nav{
@@ -18,6 +21,10 @@ body{
     width: 100%;
     height: 100%;
     background-color: rgb(3, 1, 48);
+}
+
+.header-fixed{
+    position: fixed;
 }
 
 .header-nav ul{
@@ -57,7 +64,7 @@ body{
 h1, h2, h3, h4, h5, h6{
     color: #78787878;
     font-weight: normal;
-    margin: 1em 0;
+    margin: 1.3em 0;
 }
 
 h1{
@@ -96,6 +103,52 @@ img{
     max-width: 100%;
 }
 
+.lateral-bar{
+    margin-left: 0;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    border-right: 1px solid rgba(141, 139, 139, 0.616);
+    background-color: #efefef;
+}
+
+.feed{
+    margin-left: 20%;
+    height: 100%;
+    width: 60%;
+    position: relative;
+
+    
+}
+
+.avatar{
+    display: inline-block;
+    width: 8em;
+    height: 8em;
+}
+
+.avatar img{
+    max-width: 8em;
+}
+
+.post{
+    background-color: whitesmoke;
+    margin-left: 0;
+}
+
+.border-post{
+    border-bottom: 1px solid #666;
+    padding: 1em;
+}
+
+
+
+
+.full-page{
+    width: 100%;
+    height: 100%;
+}
+
 .container{
     margin: 200px auto;
     width: 100%;
@@ -130,6 +183,9 @@ img{
     margin: auto;
     box-sizing: border-box;
     overflow: auto;
+    border: 1px solid #666;
+    border-radius: .6em;
+    padding: .8em;
 
 }
 
