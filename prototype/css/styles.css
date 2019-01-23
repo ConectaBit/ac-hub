@@ -5,7 +5,7 @@ body{
     color: #666;
     font-weight: normal;
     line-height: 1.6;
-    background-color: white;
+    background-color: #1091b813;
 }
 
 .header-top{
@@ -109,6 +109,7 @@ img{
     height: 100%;
     position: fixed;
     border-right: 1px solid rgba(141, 139, 139, 0.616);
+    background-color: white;
     
 }
 
@@ -131,11 +132,21 @@ img{
 }
 
 .avatar{
+    margin-top: 3em;
     display: inline-block;
     width: 8em;
     height: 8em;
+    background-color: white;
+    border: 1px solid #666;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all .2s linear;
 }
 
+.avatar:hover{
+    cursor: pointer;
+    border-radius: 25%
+}
 .avatar img{
     max-width: 8em;
     float: left;
@@ -166,7 +177,7 @@ img{
 }
 
 .post{
-    background-color: whitesmoke;
+    background-color: white;
     margin-left: 0;
 }
 
