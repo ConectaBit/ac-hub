@@ -77,10 +77,7 @@ body{
     
 }
 
-
-
-
-.card-1-4{
+.card-1-3{
     height: 90%;
     width: 24%;
     float: left;
@@ -91,14 +88,11 @@ body{
     transition: all .2s linear;
 }
 
-.card-1-4:hover{
+.card-1-3:hover{
     cursor: pointer;
 }
 
-
-
-
-.card-2-4{
+.card-2-3{
     height: 90%;
     width: 48%;
     float: left;
@@ -111,11 +105,8 @@ body{
     transition: all .5s linear;
 }
 
-.card-2-4:hover{
-
+.card-2-3:hover{
     cursor: pointer;
-
-
 }
 
 .card-left{
@@ -129,6 +120,17 @@ body{
 .card-center{
     background-image:  url(../images/thumbs/y9gz8j4PSK2wCnbgtyiW_double-stranded-dna_med.jpeg);
 }
+
+/*
+Não implementado
+.card-information{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+*/
 
 h1, h2, h3, h4, h5, h6{
     color: #78787878;
@@ -172,6 +174,50 @@ img{
     max-width: 100%;
 }
 
+.white-text{
+    color: white;
+}
+
+
+.suggestions{
+    margin-top: 386px;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.suggestions:nth-child(1){
+    margin-top: 1em;
+}
+.box-repository{
+    width: 90%;
+    height: 85%;
+    margin: 2em auto;
+    overflow: hidden;
+}
+
+.repository{
+    height: 80%;
+    width: 24%;
+    margin: 2.5% auto;
+    border-radius: .8em;
+    border: 1px solid #09484d;
+    float: left;
+    margin-right: 1em;
+}
+
+.repository img{
+    border-radius: .8em .8em 0 0;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #666;
+}
+
+.repository:nth-child(4){
+    margin-right: 0;
+}
 .lateral-bar{
     margin-left: 0;
     width: 20%;
@@ -277,6 +323,7 @@ img{
     box-sizing: border-box;
     overflow: auto;
 }
+
 
 
 .box-2-4{
