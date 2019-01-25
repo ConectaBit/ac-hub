@@ -61,6 +61,75 @@ body{
     background-color: whitesmoke;
 }
 
+.hero{
+    background-color: #2f363d;
+    width: 100%;
+    height: 450px;
+
+    overflow: hidden;
+
+}
+
+.box-card{
+    width: 90%;
+    height: 85%;
+    margin: 5.3em auto;
+    
+}
+
+
+
+
+.card-1-4{
+    height: 90%;
+    width: 24%;
+    float: left;
+    background-color: #efefef;
+    background-size: cover;
+    border-radius: .5em;
+    
+    transition: all .2s linear;
+}
+
+.card-1-4:hover{
+    cursor: pointer;
+}
+
+
+
+
+.card-2-4{
+    height: 90%;
+    width: 48%;
+    float: left;
+    border-radius: .5em;
+
+    margin: auto 2em;
+
+    background-color: #0f7a9b;   
+    background-size: cover;
+    transition: all .5s linear;
+}
+
+.card-2-4:hover{
+
+    cursor: pointer;
+
+
+}
+
+.card-left{
+    background-image: url(../images/thumbs/fx.png);
+}
+
+.card-right{
+    background-image: url(../images/thumbs/introduction-to-machine-learning_social.png);
+}
+
+.card-center{
+    background-image:  url(../images/thumbs/y9gz8j4PSK2wCnbgtyiW_double-stranded-dna_med.jpeg);
+}
+
 h1, h2, h3, h4, h5, h6{
     color: #78787878;
     font-weight: normal;
@@ -207,9 +276,6 @@ img{
     margin: auto;
     box-sizing: border-box;
     overflow: auto;
-    
-
-    
 }
 
 
